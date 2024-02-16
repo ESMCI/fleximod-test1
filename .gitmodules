@@ -27,3 +27,9 @@
         fxtag = MPIserial_2.3.0
 
  
+[submodule "Sparse"]
+	path = modules/mpi-sparse
+	url = https://github.com/ESMCI/mpi-serial.git
+        fxurl = https://github.com/ESMCI/mpi-serial.git
+        fxtag = MPIserial_2.5.0
+        fxsparse = ../.sparse_file
