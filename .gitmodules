@@ -13,11 +13,18 @@
         fxtag = MPIserial_2.5.0
 
 [submodule "AlwaysRequired"]
-	path = modules/mpi-serial
+	path = modules/mpi-serialAR
 	url = https://github.com/ESMCI/mpi-serial.git
         fxrequired = AlwaysRequired
         fxDONOTUSEurl = https://github.com/ESMCI/mpi-serial.git
-        fxtag = MPIserial_2.4.0
+        fxtag = MPIserial_2.5.0
+
+[submodule "SecondAlwaysRequired"]
+	path = modules/mpi-serialSAR
+	url = https://github.com/ESMCI/mpi-serial.git
+        fxrequired = AlwaysRequired
+        fxDONOTUSEurl = https://github.com/ESMCI/mpi-serial.git
+        fxtag = MPIserial_2.3.0
 
 [submodule "AlwaysOptional"]
 	path = modules/mpi-serial2
